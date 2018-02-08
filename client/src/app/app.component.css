@@ -1,0 +1,12 @@
+.container {
+    display: inline-block;
+    text-align: center;
+}
+
+button {
+    background-color: rgb(207, 183, 59);
+    margin: 1px;
+    height: 25px;
+    border-radius: 5px;
+    border: 0px solid gold;
+}

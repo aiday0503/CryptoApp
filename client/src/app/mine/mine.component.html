@@ -1,0 +1,11 @@
+<h1> Mine AlgorithmCoins</h1>
+
+<p>Here you can mine AlgorithmCoins by being the first to solve the algorithm: </p>
+
+<p>What is the 7th Fibonacci sequence number?</p>
+
+<input [(ngModel)]="input" placeholder="your answer" />
+<button (click)="onMine()"> Mine </button>
+<li *ngFor="let out of output">
+    {{out}}
+</li>
